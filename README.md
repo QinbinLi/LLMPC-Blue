@@ -27,7 +27,7 @@ conda activate llm-pbe
 pip install -r requirements.txt
 python -m attacks.DataExtraction.llm_pc_attack_baseline --model LLM-PBE/Llama3.1-8b-instruct-LLMPC-Blue-Team
 ```
-You can find `ASR (Attack Success Rate): 2.46% (475/19337)` in the output. Note that it requires your HuggingFace account has access to [Meta-Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct).
+You may find warnings like `The attention mask and the pad token id were not set. xxx`, which is normal. You can find `ASR (Attack Success Rate): 4.01% (775/19337)` in the output. Note that it requires your HuggingFace account has access to [Meta-Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct).
 
 If you encounter the following error message when running the demo attack:
 ```
