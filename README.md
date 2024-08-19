@@ -18,7 +18,7 @@ The data for development phase are available under `data` directory. There are t
 
 
 ## Demo Attack
-We also provide a baseline attack approach for your reference. You can run it by the following instructions
+We also provide a baseline attack approach, where we directly prompt the context from the scrubbed data to predict the private information. You can run it by the following instructions
 ```
 git clone https://github.com/QinbinLi/LLM-PBE.git
 cd LLM-PBE
