@@ -21,12 +21,13 @@ The data for development phase are available under `data` directory. There are t
 We also provide a baseline attack approach for your reference. You can run it by the following instructions
 ```
 git clone https://github.com/QinbinLi/LLM-PBE.git
+cd LLM-PBE
 conda create -n llm-pbe python=3.10 -y
 conda activate llm-pbe
 pip install -r requirements.txt
 python -m attacks.DataExtraction.llm_pc_attack_baseline --model LLM-PBE/LLMPC-Blue-Team-Llama3.1-8b-instruct
 ```
-You can find `ASR (Attack Success Rate): 2.46% (475/19337)` in the output.
+You can find `ASR (Attack Success Rate): 2.46% (475/19337)` in the output. Note that it requires your HuggingFace account has access to [Meta-Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct).
 
 If you encounter the following error message when running the demo attack:
 ```
