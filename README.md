@@ -42,4 +42,4 @@ TypeError: '<' not supported between instances of 'list' and 'int'
 You can fix it by removing the `pad_token_id` item in HuggingFace cache `config.json` (e.g., the path may be like `~/.cache/huggingface/hub/models--LLM-PBE--Llama3.1-8b-instruct-LLMPC-Blue-Team/snapshots/xxx/config.json`) and run again.
 
 ## Contact
-If you have any question, please contact <llmpc2024.info@gmail.com>.
+If you have any question, please create an new issue or contact <llmpc2024.info@gmail.com>.
