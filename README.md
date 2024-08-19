@@ -14,7 +14,7 @@ The data for development phase are available under `data` directory. There are t
 
 **Solution**: The running time of your defense method should be less than 24 hours with 3*H100. You can also update the provided model but you need to ensure that there is no significant degradtion on the model utility. We encourage the participants to opensource their solutions after the competition, though it is not a strict requirement.
 
-**Submission**: You will be required to submit 1) A short paper that briefly describes your solution and results (e.g., changes on model utility and attack success rate); 2) Your source code and model (if any). Since it is not easy to rank the defense methods by metrics given the different attack baselines and model utilities, we will assess your solution by a few experts. More information will be provided later.
+**Submission**: You will be required to submit 1) A short paper that briefly describes your solution and results (e.g., changes on model utility and attack success rate, efficiency); 2) Your source code and model (if any). Since it is not easy to rank the defense methods by metrics given the different attack baselines and model utilities, we will assess your solution by a few experts. More information will be provided later.
 
 
 ## Demo Attack
