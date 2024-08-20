@@ -43,3 +43,15 @@ You can fix it by removing the `pad_token_id` item in HuggingFace cache `config.
 
 ## Contact
 If you have any question, please create an new issue or contact <llmpc2024.info@gmail.com>.
+
+## Citation
+The attack demo is based on LLM-PBE. If you find it useful, please cite our paper.
+
+```
+@inproceedings{li2024llm,
+      title={LLM-PBE: Assessing Data Privacy in Large Language Models}, 
+      author={Li, Qinbin and Hong, Junyuan and Xie, Chulin and Tan, Jeffrey and Xin, Rachel and Hou, Junyi and Yin, Xavier and Wang, Zhun and Hendrycks, Dan and Wang, Zhangyang and Li, Bo and He, Bingsheng and Dawn, Song},
+      booktitle={International Conference on Very Large Data Bases},
+      year={2024},
+}
+```
