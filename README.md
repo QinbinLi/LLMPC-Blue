@@ -1,5 +1,5 @@
 # Starting Kit for LLMPC Blue Team
-This repository is for the Blue Team participants for NeurIPS 2024 LLM Privacy Challlenge.
+This repository is for the Blue Team participants for [NeurIPS 2024 LLM Privacy Challlenge](https://llm-pc.github.io/).
 
 ## Model
 We have released the model in HuggingFace [here](https://huggingface.co/LLM-PBE/LLMPC-Blue-Team-Llama3.1-8b-instruct), which is the Llama3.1-8b-instruct model fine-tuned on chat data with private information.
