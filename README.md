@@ -10,7 +10,7 @@ The data for development phase are available under `data` directory. There are t
 - LLM-PC-development-pii.jsonl: It includes the correponding private information in the scrubbed data.
 
 ## Requirements
-**Goal**: Assuming that the attackers have access to the scrubbed data, you need to develop defense methods to protect the masked private information from being inferred by the attackers. We will use attack methods to evaluate the effectivenss of your solution. The provided data is for your reference in the development phase. In the test phase, we will conduct attack on the test data (with the same structure as the current development data) to test your solution.
+**Goal**: Assuming that the attackers have access to the scrubbed data, you need to develop defense methods to protect the masked private information from being inferred by the attackers. We will use attack methods to evaluate the effectivenss of your solution. The provided data is for your reference in the development phase. In the test phase, we will conduct attack on the test data (with the same format and similar content as the current development data) to test your solution.
 
 **Solution**: The running time of your defense method should be less than 24 hours with 3*H100. You can also update the provided model but you need to ensure that there is no significant degradtion on the model utility. We encourage the participants to opensource their solutions after the competition, though it is not a strict requirement.
 
