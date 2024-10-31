@@ -16,7 +16,7 @@ The data for development phase are available under `data` directory. There are t
 
 **Submission**: You will be required to submit 
 1. A short paper that briefly describes your solution and results (e.g., changes on model utility and attack success rate, efficiency). The template is available [here](https://github.com/QinbinLi/LLMPC-Blue/blob/main/LLMPC-Submission-Template.zip). The main paper is limited to **four content pages**. Additional pages containing references and appendices are allowed;
-2. Your source code and model (if any). In your source code, you need to provide function `def query(prompt="xxx")` in `main.py`, which support querying the LLM with your proposed defense method. Experts will review your paper and provide their ratings.
+2. Your source code and model (if any). In your source code, you need to provide function `def query(prompt="xxx")` in `main.py`, which support querying the LLM with your proposed defense method. For the model, you can provide a link to the model. Experts will review your paper and provide their ratings. 
 
 > [!IMPORTANT]
 > __Please email your paper and code to <llmpc2024.info@gmail.com> by Nov 1st AOE.__
